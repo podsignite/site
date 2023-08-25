@@ -244,7 +244,7 @@ nav {
 }
 
 .problema {
-  color: var(--primary-color);
+  color: red;
 }
 
 
@@ -1001,7 +1001,10 @@ nav {
   text-align: center;
 }
 
-
+.loc-titulo2{
+  font-weight: 600;
+  font-size: 2rem;
+}
 .loc-titulo{
   height: 400px;
   overflow:hidden;
@@ -1310,7 +1313,7 @@ footer {
   .servicos h2 {
     font-size: 1rem;
     margin-bottom: 0px;
-    line-height: 3rem;
+    line-height: 1.5rem;
   }
   
   .sobrenos {
@@ -1822,13 +1825,19 @@ footer {
     position:relative;
     width: 100%;
   }
+
+  .loc-titulo2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-items: center;
+  }
   
   .loc-titulo iframe{
   
     left:0;
-    bottom: 50;
+    bottom: 0;
     top:0;
-    margin: 2% 50% 2% 20%;
+    margin: 2% 10% 2% 20%;
     height:100%;
     width:500px;
     position:absolute;
